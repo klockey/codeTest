@@ -1,0 +1,25 @@
+Accusoft Javascript Code Test Instructions
+
+For this code test, please do the following:
+
+	Fix these Items:
+		1. Get the different Canvas tabs functional
+		2. Fix the erase Tool
+		3. Fix the Text Tool
+		4. Fix the Photo Upload Tool
+
+	Please demonstrate your knowledge of Refactoring and Best Coding Practices.
+
+	Please implement two interesting Features for the right-click menu that has been implemented.
+
+	Finally, feel free to make the application more visually appealing if you have any design experience!
+
+
+
+Please make a Change Log file of all the modifications that you make to the test along with a short description of why you made them.
+
+
+This is meant to be an open ended test, so please just try to complete it to the best of you ability.
+
+
+Good Luck!
