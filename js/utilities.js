@@ -30,9 +30,12 @@
     function end(event) {
       removeEventListener("mousemove", onMove);
       removeEventListener("mouseup", end);
+<<<<<<< HEAD
       if (onEnd) {
         onEnd();
       }
+=======
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
     }
     addEventListener("mousemove", onMove);
     addEventListener("mouseup", end);
@@ -43,9 +46,15 @@
     var image = document.createElement("img");
     image.addEventListener("load", function() {
       var color = cx.fillStyle, size = cx.lineWidth;
+<<<<<<< HEAD
       cx.canvas.width = image.width;
       cx.canvas.height = image.height;
       cx.drawImage(image, 0, 0);
+=======
+      cx.canvas.width = image.height;
+      cx.canvas.height = image.height;
+      cx.drawImage(image, 0);
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
       cx.fillStyle = color;
       cx.strokeStyle = color;
       cx.lineWidth = size;

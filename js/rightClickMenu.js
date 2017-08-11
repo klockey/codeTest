@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 $(document).ready(function() {   
   
     $(document).bind("contextmenu", function (event) {       
+=======
+        $(document).bind("contextmenu", function (event) {       
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
         // Prevent the default COntext Menu from showing
         event.preventDefault();     
         // Show contextmenu to the lower right of the mouse
@@ -18,8 +22,11 @@ $(document).ready(function() {
             $(".custom-menu").hide(100);
         }
     });
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
     // If the menu element is clicked
     $(".custom-menu li").click(function(){
         // This is the triggered action name
@@ -27,7 +34,11 @@ $(document).ready(function() {
             // A case for each function. Your actions here
             case "first": 
                 console.log("1");
+<<<<<<< HEAD
                 console.log("2"); // change background
+=======
+                console.log("2"); 
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
                 break;
             case "second": 
                 alert("second"); 
@@ -48,7 +59,10 @@ $(document).ready(function() {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
     $('#tabs li a:not(:first)').addClass('inactive');
     $('.container').hide();
     $('.container:first').show();
@@ -63,6 +77,11 @@ $(document).ready(function() {
         $('#'+ t + 'C').fadeIn('slow');
      }
     });
+<<<<<<< HEAD
 })
+=======
+
+
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
 
 

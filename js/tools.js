@@ -19,8 +19,13 @@ tools = (function() {
 
 	_toolsModule.Erase = function(event, cx) {
 	  $('selector').css( 'cursor', 'pointer' );
+<<<<<<< HEAD
 	  cx.globalCompositeOperation = "destination-out";
 	  _toolsModule.Line(event, cx, function() {
+=======
+	  cx.globalCompositeoperation = "destination-out";
+	  toolsModule.Line(event, cx, function() {
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
 	    cx.globalCompositeOperation = "source-over";
 	  });
 	};
@@ -28,9 +33,14 @@ tools = (function() {
 	_toolsModule.Text = function(event, cx) {
 	  var text = prompt("Text:", "");
 	  if (text) {
+<<<<<<< HEAD
 	    var pos = relativePos(event, cx.canvas);
 	    cx.font = Math.max(7, cx.lineWidth) + "px sans-serif";
           console.log(pos.x)
+=======
+	    var pos = utilities.relativePos(event, cx.canvas);
+	    cx.font = Math.max(7, cx.lineWidth) + "px sans-serif";
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
 	    cx.fillText(text, pos.x, pos.y);
 	  }
 	};

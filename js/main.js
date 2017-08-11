@@ -28,8 +28,11 @@ function createPaint(parent) {
   $(document).ready(function() {   
   $("#tab1C").append($(panel1));
   $("#tab2C").append($(panel2));
+<<<<<<< HEAD
       
          
       
+=======
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
 });
 }

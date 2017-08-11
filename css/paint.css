@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 .titleCenter {
     position: absolute;
     text-align: center;
 }
 
+=======
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
 .picturepanel {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -112,11 +115,18 @@ a {cursor:pointer;}
     clear:both;           
     width:80%; 
     border-left: solid 1px #CCC;
+<<<<<<< HEAD
     border-right: solid 1px #CCC;
     border-bottom: solid 1px #CCC;
     text-align:left;
     padding-top: 20px;
     position: relative;
+=======
+      border-right: solid 1px #CCC;
+  border-bottom: solid 1px #CCC;
+    text-align:left;
+  padding-top: 20px;
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
 
 }
 

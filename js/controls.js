@@ -62,7 +62,11 @@ controls = (function() {
 	  return link;
 	};
 
+<<<<<<< HEAD
 	controlsModule.openFile = function(cx) {
+=======
+	controlsModule.openFile = function() {
+>>>>>>> e11e636a096e692ee52961fddbe51a6292db536c
 	  var input = createDomElement("input", {type: "file"});
 	  input.addEventListener("change", function() {
 	    if (input.files.length == 0) return;
